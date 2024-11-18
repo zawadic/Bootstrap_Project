@@ -1,0 +1,29 @@
+body {
+    padding-top: 56px;
+  }
+  .navbar-brand img{
+    max-width: 5rem;
+    height: 5rem;
+  }
+  .nav ul li a:hover,
+  .nav ul li .active:hover{
+    color: orangered;
+  }
+  .hero-section {
+    background: url('banner.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .skills img {
+    max-width: 100%;
+    height: auto;
+  }
+  .footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+  }
