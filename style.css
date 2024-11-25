@@ -18,9 +18,16 @@ body {
     justify-content: center;
     align-items: center;
   }
-  .skills img {
-    max-width: 100%;
-    height: auto;
+  .skills .container .row .col .card{
+    border: 1px solid aqua;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px 0;
+    transition: .4s;
+  }
+  .skills .container .row .col .card:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
   }
   .footer {
     background-color: #212529;
